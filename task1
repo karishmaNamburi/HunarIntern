@@ -1,0 +1,7 @@
+import numpy as np
+arr1=np.arange(1,5).reshape(2,2)
+print(arr1)
+sum=0
+for i in range(len(arr1)):
+    sum+=arr1[i][i]
+print("sum of the diagonal elements",sum)
